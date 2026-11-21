@@ -1,0 +1,14 @@
+{
+  "name": "cloudlog-dashboard-cli",
+  "version": "1.0.0",
+  "description": "CLI tool for aggregating cloud infrastructure logs and generating telemetry dashboards",
+  "type": "module",
+  "bin": {
+    "cloudlog-dashboard": "./src/index.js"
+  },
+  "scripts": {
+    "test": "node test/index.test.js"
+  },
+  "author": "Suman Mehta",
+  "license": "MIT"
+}
